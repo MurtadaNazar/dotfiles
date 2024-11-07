@@ -70,7 +70,7 @@ alias ls="colorls -a --report --gs"
 alias sn="sudo nano"
 alias inv='nvim $(fzf -m --preview="bat --color=always {}")'
 alias rkde='kquitapp5 plasmashell && kstart5 plasmashell'
-alias dmb="delete_merged_branches"
+alias dmb="delete_merged_branches.sh"
 
 # ------------------- PATHs -------------------
 # NVM Initialization
@@ -127,3 +127,6 @@ zinit light zsh-users/zsh-autosuggestions
 # Ensure fzf is in your PATH
 export PATH="$HOME/.fzf/bin:$PATH"
 eval $(thefuck --alias)
+
+# ------------------- custome scripts Configuration -------------------
+export PATH="/usr/local/bin:$PATH"
