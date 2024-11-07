@@ -12,6 +12,7 @@ fi
 # Apply the dotfiles using Stow
 echo "Stowing dotfiles..."
 stow zsh
+stow starship
 stow tmux
 stow nvim
 stow neofetch
